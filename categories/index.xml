@@ -2,20 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Material Docs</title>
-<<<<<<< HEAD
-    <link>http://kevin_caesar.coding.me/Kevin_Caesar.codingme/categories/</link>
-=======
-    <link>Kevin-Caesar.github.io/categories/</link>
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on Material Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-<<<<<<< HEAD
-	<atom:link href="http://kevin_caesar.coding.me/Kevin_Caesar.codingme/categories/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="Kevin-Caesar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+	<atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

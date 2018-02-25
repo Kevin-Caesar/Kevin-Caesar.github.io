@@ -3,29 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
-    <loc>http://kevin_caesar.coding.me/Kevin_Caesar.codingme/categories/</loc>
-=======
-    <loc>Kevin-Caesar.github.io/categories/</loc>
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+    <loc>https://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://kevin_caesar.coding.me/Kevin_Caesar.codingme/</loc>
-=======
-    <loc>Kevin-Caesar.github.io/</loc>
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+    <loc>https://example.org/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://kevin_caesar.coding.me/Kevin_Caesar.codingme/tags/</loc>
-=======
-    <loc>Kevin-Caesar.github.io/tags/</loc>
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+    <loc>https://example.org/tags/</loc>
     <priority>0</priority>
   </url>
   

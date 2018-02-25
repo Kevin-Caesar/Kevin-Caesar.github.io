@@ -2,20 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Material Docs</title>
-<<<<<<< HEAD
-    <link>http://kevin_caesar.coding.me/Kevin_Caesar.codingme/tags/</link>
-=======
-    <link>Kevin-Caesar.github.io/tags/</link>
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+    <link>https://example.org/tags/</link>
     <description>Recent content in Tags on Material Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-<<<<<<< HEAD
-	<atom:link href="http://kevin_caesar.coding.me/Kevin_Caesar.codingme/tags/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="Kevin-Caesar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 1d6e43332c664ca9d1b0ce9b08972e9fda7679fe
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
