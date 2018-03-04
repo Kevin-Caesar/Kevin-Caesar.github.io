@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kevin&#39;s Blog</title>
-    <link>http://kevin_caesar.gitee.io/blog/</link>
-    <description>Recent content on Kevin&#39;s Blog</description>
+    <title>Tag2 on Kevin&#39;s Blog</title>
+    <link>http://kevin_caesar.gitee.io/blog/tags/tag2/</link>
+    <description>Recent content in Tag2 on Kevin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Mar 2018 20:54:00 +0800</lastBuildDate>
     
-	<atom:link href="http://kevin_caesar.gitee.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://kevin_caesar.gitee.io/blog/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
