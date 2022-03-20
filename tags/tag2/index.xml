@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on Kevin&#39;s Blog</title>
-    <link>https://kevin-caesar.github.io/blog/tags/tag2/</link>
+    <link>https://kevin-caesar.github.io/tags/tag2/</link>
     <description>Recent content in Tag2 on Kevin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Mar 2018 20:54:00 +0800</lastBuildDate>
     
-	<atom:link href="https://kevin-caesar.github.io/blog/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kevin-caesar.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>https://kevin-caesar.github.io/blog/hello/</link>
+      <link>https://kevin-caesar.github.io/hello/</link>
       <pubDate>Sun, 04 Mar 2018 20:54:00 +0800</pubDate>
       
-      <guid>https://kevin-caesar.github.io/blog/hello/</guid>
+      <guid>https://kevin-caesar.github.io/hello/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://kevin-caesar.github.io/blog/2018/03/test/</link>
+      <link>https://kevin-caesar.github.io/2018/03/test/</link>
       <pubDate>Sun, 04 Mar 2018 20:41:50 +0800</pubDate>
       
-      <guid>https://kevin-caesar.github.io/blog/2018/03/test/</guid>
+      <guid>https://kevin-caesar.github.io/2018/03/test/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
