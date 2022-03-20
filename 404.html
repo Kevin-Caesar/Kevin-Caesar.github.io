@@ -1,75 +1,65 @@
-
-
-
-  
-
-
-
-
-  
-
-
-  
-
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.36.1 with theme Tranquilpeak 0.4.3-BETA">
-    <title>404 Page not found</title>
-    <meta name="author" content="Kevin Caesar">
-    <meta name="keywords" content=", development, deeplearning, Kevin_Caesar">
 
-    <link rel="icon" href="https://kevin-caesar.github.io/favicon.png">
-    
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://kevin-caesar.github.io/index.xml">
-    
+<head>
 
-    
-    <meta name="description" content="">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="404 Page not found">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="Kevin&#39;s Blog">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Kevin&#39;s Blog">
-    <meta name="twitter:description" content="">
-    
-      <meta name="twitter:creator" content="@thibaudlepretre">
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Hugo 0.36.1 with theme Tranquilpeak 0.4.3-BETA">
+  <title>404 Page not found</title>
+  <meta name="author" content="Kevin Caesar">
+  <meta name="keywords" content=", development, deeplearning, Kevin_Caesar">
 
-    
-    
+  <link rel="icon" href="https://kevin-caesar.github.io/favicon.png">
 
-    
-      <meta property="og:image" content="https://kevin-caesar.github.io/img/Kevin.png">
-    
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://kevin-caesar.github.io/index.xml">
 
-    
-    
-    
 
-    
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
-    
-    
-    <link rel="stylesheet" href="https://kevin-caesar.github.io/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
-    
-    
+  <meta name="description" content="">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="404 Page not found">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="Kevin&#39;s Blog">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kevin&#39;s Blog">
+  <meta name="twitter:description" content="">
 
-    
-      
-    
-    
-  </head>
+  <meta name="twitter:creator" content="@thibaudlepretre">
+  <meta property="og:image" content="https://kevin-caesar.github.io/img/Kevin.png">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css"
+    integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css"
+    integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet"
+    href="https://kevin-caesar.github.io/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+
+
+  <script>
+    function fetchBingWallpaper() {
+      var bingUrl = "https://cn.bing.com";
+      var imageArchivePath = "/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN";
+      var imageArchiveUrl = bingUrl + imageArchivePath;
+      return fetch(imageArchiveUrl)
+        .then(function (data) {
+          return data.json()
+        }).then(function (data) {
+          return bingUrl + data[images][0][url];
+        })
+    }
+
+    document.getElementById("cover").style = "background-image:url('" + fetchBingWallpaper() + "');";
+  </script>
+
+</head>
 
 <main class="posts">
   <article class="post">
@@ -78,119 +68,121 @@
     <p>Please head back <a href="https://kevin-caesar.github.io/">home</a>.</p>
   </article>
 </main>
-    
-    <div id="about">
+
+<div id="about">
   <div id="about-card">
     <div id="about-btn-close">
       <i class="fa fa-remove"></i>
     </div>
-    
-      <img id="about-card-picture" src="https://kevin-caesar.github.io/img/Kevin.png" alt="Author&#39;s picture" />
-    
+
+    <img id="about-card-picture" src="https://kevin-caesar.github.io/img/Kevin.png" alt="Author&#39;s picture" />
+
     <h4 id="about-card-name">Kevin Caesar</h4>
-    
-      <div id="about-card-bio">When you feel like quiting, think about why you started.</div>
-    
-    
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        Graduate Student
-      </div>
-    
-    
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        China
-      </div>
-    
+
+    <div id="about-card-bio">When you feel like quiting, think about why you started.</div>
+
+
+    <div id="about-card-job">
+      <i class="fa fa-briefcase"></i>
+      <br />
+      Graduate Student
+    </div>
+
+
+    <div id="about-card-location">
+      <i class="fa fa-map-marker"></i>
+      <br />
+      China
+    </div>
+
   </div>
 </div>
 
-    <div id="algolia-search-modal" class="modal-container">
+<div id="algolia-search-modal" class="modal-container">
   <div class="modal">
     <div class="modal-header">
       <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+      <a href="https://algolia.com" target="_blank" rel="noopener"
+        class="searchby-algolia text-color-light link-unstyled">
         <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+        <img class="searchby-algolia-logo"
+          src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
       </a>
       <i class="search-icon fa fa-search"></i>
       <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="Search" />
+        <input type="text" id="algolia-search-input" name="search" class="form-control input--large search-input"
+          placeholder="Search" />
       </form>
     </div>
     <div class="modal-body">
       <div class="no-result text-color-light text-center">no post found</div>
       <div class="results">
-        
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://kevin-caesar.github.io/2018/03/test/">
-                <h3 class="media-heading">Test</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
+
+
+        <div class="media">
+
+          <div class="media-body">
+            <a class="link-unstyled" href="https://kevin-caesar.github.io/2018/03/test/">
+              <h3 class="media-heading">Test</h3>
+            </a>
+            <span class="media-meta">
+              <span class="media-date text-small">
+                Mar 3, 2018
               </span>
-              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </span>
+            <div class="media-content hide-xs font-merryweather">
+              <p></p>
             </div>
-            <div style="clear:both;"></div>
-            <hr>
           </div>
-        
+          <div style="clear:both;"></div>
+          <hr>
+        </div>
+
       </div>
     </div>
     <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero="no post found"
-         data-message-one="1 post found"
-         data-message-other="{n} posts found">
-         1 posts found
+      <p class="results-count text-medium" data-message-zero="no post found" data-message-one="1 post found"
+        data-message-other="{n} posts found">
+        1 posts found
       </p>
     </div>
   </div>
 </div>
-    
-  
-    
-    <div id="cover" style="background-image:url('https://kevin-caesar.github.io/images/cover.jpg');"></div>
-  
 
 
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+<div id="cover"></div>
 
 
-<script src="https://kevin-caesar.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
+  integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"
+  integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script
+  src="https://kevin-caesar.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
 
 
 
 <script>
-$(document).ready(function() {
-  hljs.configure({ classPrefix: '', useBR: false });
-  $('pre.code-highlight > code, pre > code').each(function(i, block) {
-    if (!$(this).hasClass('codeblock')) {
-      $(this).addClass('codeblock');
-    }
-    hljs.highlightBlock(block);
+  $(document).ready(function () {
+    hljs.configure({ classPrefix: '', useBR: false });
+    $('pre.code-highlight > code, pre > code').each(function (i, block) {
+      if (!$(this).hasClass('codeblock')) {
+        $(this).addClass('codeblock');
+      }
+      hljs.highlightBlock(block);
+    });
   });
-});
 </script>
 
+</body>
 
-
-
-    
-  </body>
 </html>
-
